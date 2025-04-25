@@ -1,0 +1,253 @@
+.poppins_thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins_extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.poppins_light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.poppins_regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.poppins_medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.sidebar {
+    width: fit-content;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    gap: 5dvh;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: rgb(231, 231, 231);
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    box-shadow: rgba(48, 48, 48, 0.2) 0px 2px 4px;
+
+}
+
+.logo_name {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-inline: .75dvw;
+
+    img {
+        height: 11dvh;
+        padding: 5px;
+        border-color: rgb(231, 231, 231);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 50px;
+    }
+
+    h1 {
+        margin: 0;
+        margin-inline: 1dvw;
+        text-align: center;
+    }
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.navlist {
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2dvh;
+    }
+
+    li {
+        display: flex;
+        gap: 1dvw;
+        list-style: none;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .btn {
+        height: 4dvh;
+        padding: 1dvh;
+    }
+}
+
+
+.upload_post {
+    height: fit-content;
+    width: min-content;
+    display: flex;
+
+    .btn {
+        padding: 1dvh;
+    }
+
+    svg {
+        height: 10dvh;
+        width: 10dvh;
+    }
+}
+
+.logout {
+    display: flex;
+    gap: 1dvw;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+
+    .btn {
+        height: 4dvh;
+        padding: 1dvh;
+    }
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 248, 248);
+    border-radius: 7px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+    box-shadow: rgba(48, 48, 48, 0.05) 0px 2px 1px;
+    display: flex;
+    align-items: center;
+    gap: 1dvw;
+}
+
+.btn:hover {
+    background-color: rgb(241, 241, 241);
+    background: linear-gradient(-45deg, #e2e2e2 40%, #fafafa 50%, #e2e2e2 60%);
+    background-size: 300%;
+    background-position-x: 40%
+}
+
+@media (max-width: 600px) {
+    .poppins_medium {
+        font-size: 15px;
+    }
+
+    .poppins_light {
+        font-size: 10px;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .upload_post {
+        .btn {
+            padding: 1dvh;
+        }
+
+        svg {
+            height: 5dvh;
+            width: 5dvh;
+        }
+    }
+
+    .logo_name {
+        img {
+            height: 8dvh;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    li {
+        flex-direction: column;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    .logout {
+        flex-direction: column;
+    }
+
+    .upload_post {
+        .btn {
+            padding: 1dvh;
+        }
+
+        svg {
+            height: 3.5dvh;
+            width: 3.5dvh;
+        }
+    }
+}
+
+
+@media (max-width: 400px) {
+    li {
+        flex-direction: column;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    .logout {
+        flex-direction: column;
+    }
+
+    .upload_post {
+        .btn {
+            padding: 1dvh;
+        }
+
+        svg {
+            height: 2.75dvh;
+            width: 2.75dvh;
+        }
+    }
+
+    .logo_name {
+        img {
+            height: 5dvh;
+        }
+    }
+}

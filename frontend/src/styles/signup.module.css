@@ -1,0 +1,391 @@
+/*
+---------------------------
+         CLASSES
+---------------------------
+*/
+
+
+.poppins_thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins_extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.poppins_light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.poppins_regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.poppins_medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins_semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins_bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins_extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins_black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins_thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins_extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins_light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins_regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins_medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins_semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins_bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins_extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins_black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.page {
+    min-height: 100dvh;
+    min-width: 100dvw;
+    background-color: rgb(219, 219, 219);
+    place-content: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+    max-height: 80%;
+    box-shadow: rgba(48, 48, 48, 0.2) 0px 2px 4px;
+    border-radius: 16px;
+    place-self: center;
+}
+
+.container_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
+    min-height: 70dvh;
+    background-color: rgb(248, 248, 248);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: rgb(231, 231, 231);
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 0;
+    border-style: solid;
+}
+
+.container_left {
+    min-width: 50%;
+    min-height: 50dvh;
+    background-color: rgb(214, 214, 214);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: rgb(231, 231, 231);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-right-width: 1px;
+
+    background-image: url('../assets/LI_SU_BKGRD.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
+
+    img {
+        height: 25dvh;
+        align-self: center;
+        transform: scaleX(-1);
+    }
+}
+
+.login_top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    h1 {
+        margin: auto;
+    }
+
+    h2 {
+        margin: auto;
+        color: rgb(163, 162, 162);
+        margin-bottom: 2dvh;
+    }
+}
+
+.login_middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2dvh;
+
+}
+
+.login_bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    gap: 2dvh;
+
+    button {
+        color: rgb(255, 255, 255);
+        background-color: black;
+        border-radius: 7px;
+        width: 76.5%;
+        height: 3.5dvh;
+        border-width: 0;
+    }
+
+    button:hover {
+        background-color: rgb(44, 44, 44);
+    }
+
+
+    p {
+        margin: 0;
+        padding: 0;
+        gap: .5dvw;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}
+
+.usernameInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    p {
+        width: 76%;
+
+    }
+
+    input {
+        width: 77%;
+        padding: 0.6rem .7rem;
+        /* vertical and horizontal padding */
+        box-sizing: border-box;
+        border-radius: 7px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(231, 231, 231);
+        box-shadow: rgba(48, 48, 48, 0.05) 0px 2px 1px;
+    }
+
+
+}
+
+.passwordInput {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    input {
+        width: 77%;
+        padding: 0.6rem .7rem;
+        /* vertical and horizontal padding */
+        box-sizing: border-box;
+        border-radius: 7px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(231, 231, 231);
+        box-shadow: rgba(48, 48, 48, 0.05) 0px 2px 1px;
+        margin-bottom: 2dvh;
+    }
+}
+
+input:focus {
+    border-color: rgb(179, 179, 179, .7);
+    border-width: 1px;
+    outline: none;
+    margin: -1;
+
+}
+
+.inlinePassText {
+    width: 76%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inlineAuthButtons {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 1dvw;
+    place-content: center;
+
+    button {
+        color: rgb(0, 0, 0);
+        background-color: rgb(248, 248, 248);
+        border-radius: 7px;
+        width: 22.8%;
+        height: 3.5dvh;
+        border-radius: 7px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(231, 231, 231);
+        box-shadow: rgba(48, 48, 48, 0.05) 0px 2px 1px;
+    }
+
+    button:hover {
+        background-color: rgb(241, 241, 241);
+    }
+}
+
+.bottom_text {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    gap: 1dvw;
+}
+
+@media (max-width: 1000px) {
+    .poppins_extralight {
+        font-size: 8px;
+    }
+
+    .poppins_regular {
+        font-size: 15px;
+    }
+
+    .poppins_light {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .inlinePassText {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        max-height: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container_left {
+        display: none;
+    }
+
+    .container_right {
+        min-width: 100%;
+        border-color: rgb(231, 231, 231);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 15px;
+    }
+}
